@@ -42,7 +42,7 @@
     margin-right: 20px;
 }
 
-a{
+.menu a{
     color: inherit !important;
     text-decoration: none !important;
 }
@@ -51,12 +51,12 @@ a{
 
 #intro{
     background-color: #FFDB67;
-    height: 800px;
+    height: 600px;
     float: left;
     width: 100%;
 }
 
-.row{
+.intro_row{
     text-align: left;
     margin-left: 15%;
     margin-top: 50px;
@@ -92,6 +92,73 @@ a{
 /* Main */
 #main{
     width: 100%;
-    height: 800px;
+    height: 600px;
     float: left;
+}
+
+.main_row{
+    margin: auto;
+    text-align: left;
+    max-width: 1110px;
+    padding: 50px 15px 0px 15px;
+    display: grid;
+    grid-template-columns: 380px 730px;
+}
+
+.about{
+    font-weight: 600;
+    font-size: 2.5em;
+}
+
+.row_info{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 365px 365px;
+}
+
+.row_info ul{
+    list-style-type: none;
+}
+
+.row_info li{
+    padding-top: 10px;
+}
+
+.row_info span{
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.btn{
+    padding: 5px;
+    position: relative;
+    bottom: 170px;
+    font-weight: 400;
+    color:#fff;
+    background: #000;
+    border-radius: 15px;
+    width: max-content;
+    text-decoration: none;
+}
+
+.counternum{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 15%;
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counternum span{
+    font-weight: 600;
+}
+
+
+.footer{
+    float: left;
+    width: 100%;
+    height: 600px;
 }
